@@ -96,6 +96,6 @@ see [TestExample](https://github.com/DanboDuan/TestExample)
 
 if you like
 
-![like it](https://github.com/DanboDuan/cocoapods-unit-test/blob/master/like_it.jpg)
+![like it](https://raw.githubusercontent.com/DanboDuan/cocoapods-unit-test/master/like_it.jpg)
 
 
