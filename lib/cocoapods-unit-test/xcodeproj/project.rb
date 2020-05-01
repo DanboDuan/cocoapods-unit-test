@@ -15,5 +15,9 @@ module Xcodeproj
       }.flatten.uniq
     end
 
+    def unit_test_all_pods
+      unit_test_dev_pods() + unit_test_dependency_pods()
+    end
+
   end
 end

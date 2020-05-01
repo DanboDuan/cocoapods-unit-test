@@ -129,7 +129,7 @@ module Pod
 
       index_file = File.join(archives_path(scheme),"lcov/index.html")
       TestResult.new(result_json_path(scheme),index_file).parse()
-
+      UI.puts "Test result path #{index_file}"
       system("open #{index_file}") if File.file?(index_file)
     end
 

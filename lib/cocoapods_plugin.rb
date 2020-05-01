@@ -64,9 +64,14 @@ module CocoapodsUnitTest
     end
 
     test_specs = user_options.fetch(:names,[])
+
     if test_specs.nil? || test_specs.empty?
       test_specs = context.pods_project.unit_test_dev_pods()
     end
+
+    all_pods = context.pods_project.unit_test_all_pods()
+
+    test_specs = test_specs.select { |e| all_pods.include?(e)  }
 
     test_specs.each { |x|  puts "Test target: #{x.to_s}"}
     if test_specs.empty?
