@@ -2,6 +2,8 @@
 
 A cocoapods plugin to work with Unit-Test
 
+- work with [XcodeCoverage](https://github.com/jonreid/XcodeCoverage), you can read the usage
+
 ## Installation
 
 Just install it
@@ -88,10 +90,12 @@ bundle exec pod test TestExample --simulator='iPhone 8'
 
 ## Example
 
-see []
+see [TestExample](https://github.com/DanboDuan/TestExample)
 
 ## Contribute
 
 if you like
+
+![like it](like_it.jpg)
 
 
