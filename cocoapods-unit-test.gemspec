@@ -24,6 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'xcpretty','~> 0.3'
   spec.add_dependency 'neatjson','~> 0.9'
 
-  spec.add_development_dependency 'bundler', '~> 1.3'
-  spec.add_development_dependency 'rake','~> 10'
+  spec.add_development_dependency 'bundler', '>= 2.2.33'
+  spec.add_development_dependency 'rake','>= 12.3.3'
 end
